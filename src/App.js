@@ -5,6 +5,8 @@ import Content from './Content/Content';
 import Slider from './Content/Slider';
 import Promotion from './Content/Promotion';
 import Footer from './Footer/Footer';
+import Product from './Content/Product';
+import Contact from './Content/Contact';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Slider></Slider>
       <Promotion></Promotion>
       <Content></Content>
+      <Product></Product>
+      <Contact></Contact>
       <Footer></Footer>
     </div>
   );
