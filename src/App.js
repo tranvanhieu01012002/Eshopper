@@ -5,7 +5,7 @@ import Content from './Content/Content';
 import Slider from './Content/Slider';
 import Promotion from './Content/Promotion';
 import Footer from './Footer/Footer';
-import Product from './Content/Product';
+import {Product} from './Content/Product';
 import Contact from './Content/Contact';
 
 function App() {
@@ -14,8 +14,8 @@ function App() {
       <Header></Header>
       <Slider></Slider>
       <Promotion></Promotion>
-      <Content></Content>
-      <Product></Product>
+      <Content ></Content>
+      <Product click={0}></Product>
       <Contact></Contact>
       <Footer></Footer>
     </div>

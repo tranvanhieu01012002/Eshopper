@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { clickNe } from './Process'
+
 export default class Item extends Component {
   render() {
     return (
@@ -6,6 +8,7 @@ export default class Item extends Component {
     )
   }
 }
+
 var render = (product)=> {
     return (
           <div className="col-lg-3 col-md-6 col-sm-12 pb-1">
@@ -20,10 +23,12 @@ var render = (product)=> {
               </div>
             </div>
             <div className="card-footer d-flex justify-content-between bg-light border">
-              <a href className="btn btn-sm text-dark p-0"><i className="fas fa-eye text-primary mr-1" />View Detail</a>
-              <a href className="btn btn-sm text-dark p-0"><i className="fas fa-shopping-cart text-primary mr-1" />Add To Cart</a>
+              <a  href="# " className="btn btn-sm text-dark p-0"><i className="fas fa-eye text-primary mr-1" />View Detail</a>
+              <a href="# " onClick={()=>{clickNe(product.name)}} className="btn btn-sm text-dark p-0"><i className="fas fa-shopping-cart text-primary mr-1" />Add To Cart</a>
             </div>
           </div>
         </div>  
     )
+
 }
+
