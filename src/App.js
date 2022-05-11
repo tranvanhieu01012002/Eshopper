@@ -15,7 +15,7 @@ function App() {
       <Slider></Slider>
       <Promotion></Promotion>
       <Content ></Content>
-      <Product click={0}></Product>
+      <Product></Product>
       <Contact></Contact>
       <Footer></Footer>
     </div>

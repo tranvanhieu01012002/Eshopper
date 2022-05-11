@@ -169,6 +169,10 @@ export var getData = (type)=>{
         {
          "name": "Châu Phi",
          "id": "4"
+        },
+        {
+            "name": "Xem tất cả",
+            "id": "0"
         }
        ]
     var categoriesFul = [{id : true, name:"Tất cả các sản phẩm" }]
