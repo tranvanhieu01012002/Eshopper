@@ -7,6 +7,7 @@ import Promotion from './Content/Promotion';
 import Footer from './Footer/Footer';
 import {Product} from './Content/Product';
 import Contact from './Content/Contact';
+import FormArea from './Form/FormArea';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Promotion></Promotion>
       <Content ></Content>
       <Product></Product>
+      <FormArea></FormArea>
       <Contact></Contact>
       <Footer></Footer>
     </div>

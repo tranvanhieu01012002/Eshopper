@@ -1,4 +1,6 @@
-export var getData = (type)=>{
+import axios from "axios";
+
+ var getData = (type)=>{
     var data = [
         {
         "id": "1",
@@ -185,4 +187,35 @@ export var getData = (type)=>{
             return categories;
     }
 }
+var getJobData = ()=>{
+    var data = [
+        {
+            job: "Driver",
+            id: "0"
+        },
+        {
+            job: "Cook",
+            id: "1"
+        },  {
+            job: "Teacher",
+            id: "2"
+        },
+        {
+            job: "Doctor",
+            id: "3"
+        }
+    ]
+    return data
+}
+// var getDataProvince = async ()=>{
+//     var res = await axios("https://provinces.open-api.vn/api/?depth=1")
+//     var abc = await res.data
+//     return abc
+    
+// }
+var getDataProvince = async () => {
+    return await axios("https://627249d225fed8fcb5f1d3b6.mockapi.io/Categories");
+  };
 
+
+export {getData,getJobData,getDataProvince}
