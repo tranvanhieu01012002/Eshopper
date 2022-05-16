@@ -203,6 +203,9 @@ var getJobData = ()=>{
         {
             job: "Doctor",
             id: "3"
+        },  {
+            job: "Trainer",
+            id: "4"
         }
     ]
     return data
